@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Data (extracted from data.zip or generated)
+data/
+
+# Output cache (regeneratable)
+output/*/
+
+# Results
+results/results.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API keys
+.env

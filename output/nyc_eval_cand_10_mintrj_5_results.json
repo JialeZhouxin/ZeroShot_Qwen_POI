@@ -1,0 +1,5803 @@
+{
+  "metrics": {
+    "total_samples": 412,
+    "Acc@1": 0.3592233009708738,
+    "Acc@5": 0.8543689320388349,
+    "Acc@10": 1.0,
+    "Recall@1": 0.3592233009708738,
+    "Recall@5": 0.8543689320388349,
+    "Recall@10": 1.0,
+    "Precision@1": 0.3592233009708738,
+    "Precision@5": 0.1708737864077681,
+    "Precision@10": 0.10000000000000077,
+    "NDCG@1": 0.3592233009708738,
+    "NDCG@5": 0.6188159020921512,
+    "NDCG@10": 0.665734830659763,
+    "MRR": 0.5599986515641856,
+    "ValidRatio": 1.0,
+    "MeanRank": 3.0097087378640777,
+    "hit1": 148,
+    "hit5": 352,
+    "hit10": 412,
+    "total_checked": 412,
+    "api_errors": 0,
+    "total_llm_calls": 1243,
+    "avg_llm_calls_per_sample": 3.016990291262136,
+    "early_stop_count": 412,
+    "early_stop_ratio": 1.0
+  },
+  "results": [
+    {
+      "trajectory_id": "1327",
+      "ground_truth": "4103",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "371",
+        "442",
+        "4103"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1474",
+      "ground_truth": "4813",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4813"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1475",
+      "ground_truth": "3721",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3721"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1476",
+      "ground_truth": "3464",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3464"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1479",
+      "ground_truth": "3721",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3721"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1614",
+      "ground_truth": "2159",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3471",
+        "676",
+        "2689",
+        "2159"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1615",
+      "ground_truth": "234",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "234"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1619",
+      "ground_truth": "3190",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3190"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2964",
+      "ground_truth": "279",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2031",
+        "279"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2965",
+      "ground_truth": "584",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "570",
+        "68",
+        "1582",
+        "1382",
+        "4077",
+        "2986",
+        "4697",
+        "4878",
+        "1380",
+        "584"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2966",
+      "ground_truth": "3796",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "2158",
+        "1614",
+        "2075",
+        "1984",
+        "3796"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2968",
+      "ground_truth": "2133",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "1378",
+        "1326",
+        "1046",
+        "1849",
+        "3122",
+        "2133"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2970",
+      "ground_truth": "3796",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3800",
+        "388",
+        "3796"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2971",
+      "ground_truth": "1206",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2398",
+        "1206"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4308",
+      "ground_truth": "2475",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2475"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4310",
+      "ground_truth": "862",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "812",
+        "2000",
+        "1645",
+        "3194",
+        "80",
+        "1842",
+        "862"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4313",
+      "ground_truth": "2475",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2475"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8682",
+      "ground_truth": "2874",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3781",
+        "2874"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8874",
+      "ground_truth": "3321",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3288",
+        "3321"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9607",
+      "ground_truth": "4675",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1294",
+        "1440",
+        "3014",
+        "4675"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9608",
+      "ground_truth": "1832",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1832"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9609",
+      "ground_truth": "1832",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "938",
+        "1832"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9610",
+      "ground_truth": "4147",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3096",
+        "4489",
+        "3925",
+        "887",
+        "4147"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9613",
+      "ground_truth": "1832",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1832"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9615",
+      "ground_truth": "1832",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1832"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9616",
+      "ground_truth": "1136",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1136"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9618",
+      "ground_truth": "1136",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1941",
+        "1136"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11329",
+      "ground_truth": "500",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "2471",
+        "1809",
+        "723",
+        "3175",
+        "948",
+        "1494",
+        "2557",
+        "269",
+        "3079",
+        "500"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11330",
+      "ground_truth": "2256",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1404",
+        "2256"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11332",
+      "ground_truth": "2256",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2256"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11334",
+      "ground_truth": "2256",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3100",
+        "109",
+        "2256"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11335",
+      "ground_truth": "1835",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1744",
+        "1835"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11484",
+      "ground_truth": "4092",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4092"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11487",
+      "ground_truth": "4092",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "870",
+        "1350",
+        "4092"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11489",
+      "ground_truth": "4952",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4952"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11490",
+      "ground_truth": "2167",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2167"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11491",
+      "ground_truth": "4092",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4092"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11780",
+      "ground_truth": "3786",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1354",
+        "2930",
+        "3786"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11781",
+      "ground_truth": "4891",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "1791",
+        "3906",
+        "1803",
+        "3422",
+        "4891"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11782",
+      "ground_truth": "4891",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "2911",
+        "2011",
+        "2492",
+        "237",
+        "1118",
+        "4891"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11783",
+      "ground_truth": "292",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3900",
+        "252",
+        "3536",
+        "292"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11784",
+      "ground_truth": "4445",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "9",
+        "4445"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12388",
+      "ground_truth": "1067",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "128",
+        "2287",
+        "4739",
+        "1082",
+        "4473",
+        "661",
+        "3929",
+        "1067"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12390",
+      "ground_truth": "1022",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3554",
+        "3125",
+        "1022"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12700",
+      "ground_truth": "1668",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1919",
+        "1668"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12701",
+      "ground_truth": "1224",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1224"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12702",
+      "ground_truth": "478",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "245",
+        "3976",
+        "3304",
+        "4147",
+        "3178",
+        "1637",
+        "1309",
+        "478"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12703",
+      "ground_truth": "4165",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1205",
+        "4165"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12704",
+      "ground_truth": "294",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "4277",
+        "2321",
+        "4342",
+        "605",
+        "1058",
+        "3861",
+        "4938",
+        "60",
+        "348",
+        "294"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12707",
+      "ground_truth": "1893",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2813",
+        "1923",
+        "2874",
+        "1893"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13204",
+      "ground_truth": "3976",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4686",
+        "2496",
+        "3873",
+        "455",
+        "3976"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13205",
+      "ground_truth": "4397",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4397"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13494",
+      "ground_truth": "2311",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2311"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13495",
+      "ground_truth": "1902",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1902"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13496",
+      "ground_truth": "3978",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1354",
+        "2064",
+        "3978"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13497",
+      "ground_truth": "3978",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "1820",
+        "720",
+        "2203",
+        "735",
+        "3978"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13498",
+      "ground_truth": "2793",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1094",
+        "399",
+        "131",
+        "2793"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13500",
+      "ground_truth": "2058",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3393",
+        "3077",
+        "4956",
+        "3076",
+        "2058"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14100",
+      "ground_truth": "2337",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3407",
+        "3691",
+        "3853",
+        "2337"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14101",
+      "ground_truth": "4348",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3400",
+        "4348"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14104",
+      "ground_truth": "3709",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3709"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14107",
+      "ground_truth": "2217",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "1781",
+        "3296",
+        "2771",
+        "4473",
+        "2584",
+        "3784",
+        "2217"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14108",
+      "ground_truth": "2683",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4933",
+        "24",
+        "2909",
+        "2683"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1165",
+      "ground_truth": "48",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "2509",
+        "2435",
+        "179",
+        "537",
+        "153",
+        "1731",
+        "3119",
+        "4927",
+        "4043",
+        "48"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1378",
+      "ground_truth": "619",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "732",
+        "619"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1379",
+      "ground_truth": "619",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3361",
+        "619"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1448",
+      "ground_truth": "1449",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1449"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1449",
+      "ground_truth": "4975",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "2836",
+        "4774",
+        "286",
+        "221",
+        "919",
+        "4975"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1450",
+      "ground_truth": "2013",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "3412",
+        "1296",
+        "2708",
+        "2039",
+        "2949",
+        "2013"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1451",
+      "ground_truth": "4975",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2227",
+        "1111",
+        "1079",
+        "4975"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1452",
+      "ground_truth": "1449",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1449"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1453",
+      "ground_truth": "2713",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3253",
+        "274",
+        "3825",
+        "2713"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1495",
+      "ground_truth": "1957",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "3456",
+        "3474",
+        "4224",
+        "4487",
+        "1599",
+        "2257",
+        "3068",
+        "1957"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1513",
+      "ground_truth": "4260",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "2073",
+        "2208",
+        "3465",
+        "2110",
+        "4260"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1515",
+      "ground_truth": "3426",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3708",
+        "3937",
+        "1338",
+        "3426"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1544",
+      "ground_truth": "1657",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1553",
+        "1657"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1644",
+      "ground_truth": "3596",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3596"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1652",
+      "ground_truth": "4072",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1288",
+        "4072"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1717",
+      "ground_truth": "4010",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4010"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1978",
+      "ground_truth": "3797",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4018",
+        "3797"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "1982",
+      "ground_truth": "1922",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "1273",
+        "2510",
+        "4178",
+        "1327",
+        "1922"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2119",
+      "ground_truth": "4477",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4477"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2120",
+      "ground_truth": "2490",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3412",
+        "471",
+        "2490"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2122",
+      "ground_truth": "4284",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4284"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2123",
+      "ground_truth": "3452",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1809",
+        "3452"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2169",
+      "ground_truth": "1890",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "2421",
+        "1413",
+        "4516",
+        "4355",
+        "799",
+        "1509",
+        "1029",
+        "1890"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2172",
+      "ground_truth": "994",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "994"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2339",
+      "ground_truth": "47",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1707",
+        "47"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2383",
+      "ground_truth": "4808",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3377",
+        "4808"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2458",
+      "ground_truth": "612",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1230",
+        "612"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2699",
+      "ground_truth": "2752",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2752"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2721",
+      "ground_truth": "4820",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2287",
+        "4835",
+        "4820"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2820",
+      "ground_truth": "3597",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3048",
+        "3597"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2822",
+      "ground_truth": "1006",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "628",
+        "549",
+        "4009",
+        "376",
+        "4450",
+        "2396",
+        "1918",
+        "2648",
+        "4040",
+        "1006"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2842",
+      "ground_truth": "1070",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1070"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "2921",
+      "ground_truth": "1803",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1803"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3031",
+      "ground_truth": "2748",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2748"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3033",
+      "ground_truth": "1545",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4297",
+        "1545"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3034",
+      "ground_truth": "287",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "791",
+        "1582",
+        "3639",
+        "2454",
+        "4565",
+        "4593",
+        "287"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3035",
+      "ground_truth": "2748",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2748"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3217",
+      "ground_truth": "2323",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2323"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3218",
+      "ground_truth": "3935",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "446",
+        "884",
+        "3935"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3281",
+      "ground_truth": "1521",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1521"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3459",
+      "ground_truth": "1738",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1738"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3460",
+      "ground_truth": "3501",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4707",
+        "4022",
+        "1443",
+        "3501"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3461",
+      "ground_truth": "1598",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1598"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3761",
+      "ground_truth": "4725",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4725"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3762",
+      "ground_truth": "4725",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4362",
+        "2807",
+        "4725"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3763",
+      "ground_truth": "3187",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3187"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3765",
+      "ground_truth": "3608",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3608"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3767",
+      "ground_truth": "3621",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4725",
+        "3621"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3888",
+      "ground_truth": "1904",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "2154",
+        "25",
+        "2093",
+        "1308",
+        "3850",
+        "3612",
+        "3411",
+        "1904"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "3890",
+      "ground_truth": "4629",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4084",
+        "3559",
+        "4629"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4136",
+      "ground_truth": "970",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "970"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4140",
+      "ground_truth": "964",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "4511",
+        "4503",
+        "4667",
+        "4192",
+        "2274",
+        "964"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4141",
+      "ground_truth": "4959",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3870",
+        "4959"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4142",
+      "ground_truth": "1904",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1962",
+        "2223",
+        "1904"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4145",
+      "ground_truth": "3644",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3644"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4180",
+      "ground_truth": "3296",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3296"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4181",
+      "ground_truth": "1346",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3371",
+        "1346"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4182",
+      "ground_truth": "2105",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2105"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4183",
+      "ground_truth": "1346",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4016",
+        "4913",
+        "1346"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4184",
+      "ground_truth": "3479",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "3144",
+        "1070",
+        "4486",
+        "3141",
+        "737",
+        "4207",
+        "17",
+        "3479"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4186",
+      "ground_truth": "1116",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1116"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4261",
+      "ground_truth": "96",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4189",
+        "1968",
+        "1739",
+        "96"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4262",
+      "ground_truth": "237",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1668",
+        "1316",
+        "237"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4263",
+      "ground_truth": "2745",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "292",
+        "256",
+        "2745"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4264",
+      "ground_truth": "398",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "207",
+        "3401",
+        "891",
+        "398"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4266",
+      "ground_truth": "4892",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "1983",
+        "1272",
+        "1707",
+        "958",
+        "3719",
+        "1270",
+        "4892"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4341",
+      "ground_truth": "4900",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3047",
+        "58",
+        "4900"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4351",
+      "ground_truth": "733",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "780",
+        "4411",
+        "228",
+        "1403",
+        "4584",
+        "4532",
+        "3000",
+        "3892",
+        "4121",
+        "733"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4387",
+      "ground_truth": "1124",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3369",
+        "1124"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4388",
+      "ground_truth": "1719",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1719"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4389",
+      "ground_truth": "1960",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1960"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4390",
+      "ground_truth": "3210",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "2251",
+        "2868",
+        "1326",
+        "3310",
+        "3388",
+        "820",
+        "3717",
+        "3210"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4392",
+      "ground_truth": "2484",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2484"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4393",
+      "ground_truth": "2484",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2484"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4394",
+      "ground_truth": "3132",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3132"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4396",
+      "ground_truth": "2484",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2484"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4468",
+      "ground_truth": "4685",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3622",
+        "4685"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4469",
+      "ground_truth": "4613",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4617",
+        "1152",
+        "4613"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4471",
+      "ground_truth": "4685",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "1917",
+        "4501",
+        "183",
+        "853",
+        "1962",
+        "2829",
+        "4685"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4472",
+      "ground_truth": "2832",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2952",
+        "2832"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4641",
+      "ground_truth": "3889",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3783",
+        "3360",
+        "3889"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4647",
+      "ground_truth": "1463",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "3852",
+        "3634",
+        "719",
+        "4285",
+        "635",
+        "2532",
+        "1390",
+        "433",
+        "3387",
+        "1463"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4709",
+      "ground_truth": "494",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "2764",
+        "1502",
+        "3665",
+        "2229",
+        "1417",
+        "494"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4831",
+      "ground_truth": "4145",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4871",
+        "4145"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4835",
+      "ground_truth": "4145",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4781",
+        "4145"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4838",
+      "ground_truth": "1985",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1134",
+        "532",
+        "4050",
+        "1985"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4839",
+      "ground_truth": "2524",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "364",
+        "1404",
+        "1809",
+        "2524"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4910",
+      "ground_truth": "4970",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4900",
+        "4205",
+        "453",
+        "3384",
+        "4970"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4912",
+      "ground_truth": "4857",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4857"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4913",
+      "ground_truth": "4264",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "4691",
+        "1694",
+        "3942",
+        "2464",
+        "3517",
+        "1668",
+        "1392",
+        "2898",
+        "1397",
+        "4264"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "4914",
+      "ground_truth": "4857",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4857"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5267",
+      "ground_truth": "2789",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2858",
+        "2789"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5268",
+      "ground_truth": "4640",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "711",
+        "4640"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5269",
+      "ground_truth": "3295",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "3617",
+        "1859",
+        "2724",
+        "2408",
+        "3445",
+        "270",
+        "4410",
+        "3295"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5413",
+      "ground_truth": "4934",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3300",
+        "4934"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5418",
+      "ground_truth": "1726",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1800",
+        "1726"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5420",
+      "ground_truth": "1726",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1726"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5422",
+      "ground_truth": "4948",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4477",
+        "4948"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5509",
+      "ground_truth": "1542",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1542"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5685",
+      "ground_truth": "4395",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2945",
+        "4395"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5686",
+      "ground_truth": "3741",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3741"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5687",
+      "ground_truth": "584",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "2015",
+        "1759",
+        "1396",
+        "3193",
+        "584"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5688",
+      "ground_truth": "2415",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2415"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5690",
+      "ground_truth": "4214",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2041",
+        "2072",
+        "2348",
+        "4214"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5877",
+      "ground_truth": "3692",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3692"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "5929",
+      "ground_truth": "1436",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "4605",
+        "4089",
+        "249",
+        "1235",
+        "1156",
+        "1436"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6023",
+      "ground_truth": "3306",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3306"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6024",
+      "ground_truth": "2898",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2898"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6027",
+      "ground_truth": "3306",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4876",
+        "3368",
+        "3306"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6069",
+      "ground_truth": "140",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2227",
+        "1130",
+        "140"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6115",
+      "ground_truth": "1282",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1282"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6116",
+      "ground_truth": "1780",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1780"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6176",
+      "ground_truth": "4910",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4910"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6270",
+      "ground_truth": "4914",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4914"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6292",
+      "ground_truth": "1588",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2343",
+        "1588"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6293",
+      "ground_truth": "4327",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2022",
+        "78",
+        "1115",
+        "4327"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6294",
+      "ground_truth": "3290",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4293",
+        "694",
+        "3290"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6365",
+      "ground_truth": "1967",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "2932",
+        "2159",
+        "1957",
+        "1278",
+        "279",
+        "4844",
+        "2358",
+        "15",
+        "4740",
+        "1967"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6367",
+      "ground_truth": "1673",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "1693",
+        "4081",
+        "1494",
+        "2495",
+        "1673"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6368",
+      "ground_truth": "4442",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4442"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6435",
+      "ground_truth": "4574",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2551",
+        "2320",
+        "4574"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6437",
+      "ground_truth": "4574",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1894",
+        "4574"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6691",
+      "ground_truth": "3356",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3811",
+        "3356"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6785",
+      "ground_truth": "889",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "1289",
+        "1720",
+        "4138",
+        "1809",
+        "2864",
+        "2818",
+        "573",
+        "1732",
+        "889"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6814",
+      "ground_truth": "4798",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3828",
+        "4798"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6817",
+      "ground_truth": "1029",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4852",
+        "4193",
+        "1494",
+        "1029"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6874",
+      "ground_truth": "1136",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "3800",
+        "1288",
+        "2425",
+        "1085",
+        "3750",
+        "1849",
+        "1136"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6876",
+      "ground_truth": "4941",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2816",
+        "2380",
+        "4941"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6877",
+      "ground_truth": "2090",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3059",
+        "3216",
+        "3861",
+        "1917",
+        "2090"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6878",
+      "ground_truth": "2972",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2972"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6905",
+      "ground_truth": "3552",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2524",
+        "2492",
+        "3552"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6906",
+      "ground_truth": "3700",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3700"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6951",
+      "ground_truth": "2209",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4446",
+        "2209"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6954",
+      "ground_truth": "356",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "853",
+        "356"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6955",
+      "ground_truth": "2361",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2375",
+        "1905",
+        "801",
+        "2361"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6958",
+      "ground_truth": "4629",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4629"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6959",
+      "ground_truth": "4070",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "463",
+        "1580",
+        "795",
+        "4070"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "6962",
+      "ground_truth": "4203",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4203"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7013",
+      "ground_truth": "3009",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1188",
+        "1035",
+        "2087",
+        "3009"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7014",
+      "ground_truth": "3561",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4891",
+        "1097",
+        "3561"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7016",
+      "ground_truth": "4917",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1636",
+        "4917"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7083",
+      "ground_truth": "1682",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1096",
+        "1682"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7145",
+      "ground_truth": "40",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3413",
+        "3320",
+        "2672",
+        "3831",
+        "40"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7194",
+      "ground_truth": "2014",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2014"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7300",
+      "ground_truth": "4885",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4885"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7357",
+      "ground_truth": "2672",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1684",
+        "1304",
+        "4191",
+        "2672"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7568",
+      "ground_truth": "120",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "30",
+        "2932",
+        "3513",
+        "566",
+        "120"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7581",
+      "ground_truth": "426",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "426"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7739",
+      "ground_truth": "4563",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4020",
+        "3738",
+        "4281",
+        "4069",
+        "4563"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7827",
+      "ground_truth": "1799",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1799"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7828",
+      "ground_truth": "1799",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1799"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7950",
+      "ground_truth": "4905",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4905"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7979",
+      "ground_truth": "4810",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4810"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7980",
+      "ground_truth": "2008",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2008"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "7982",
+      "ground_truth": "4810",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4632",
+        "4895",
+        "4934",
+        "3113",
+        "4810"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8071",
+      "ground_truth": "1149",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1149"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8072",
+      "ground_truth": "1052",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1052"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8076",
+      "ground_truth": "1513",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1513"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8209",
+      "ground_truth": "4856",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2057",
+        "821",
+        "4856"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8210",
+      "ground_truth": "4856",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1504",
+        "4751",
+        "2860",
+        "4856"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8211",
+      "ground_truth": "2351",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "4074",
+        "1717",
+        "4109",
+        "593",
+        "1199",
+        "3026",
+        "2816",
+        "2351"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8215",
+      "ground_truth": "3929",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3761",
+        "3673",
+        "1716",
+        "3929"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8318",
+      "ground_truth": "2338",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1976",
+        "237",
+        "2338"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8362",
+      "ground_truth": "2837",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2837"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8368",
+      "ground_truth": "3553",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2803",
+        "877",
+        "3226",
+        "3553"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8539",
+      "ground_truth": "6",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "105",
+        "4052",
+        "3048",
+        "1914",
+        "3632",
+        "763",
+        "1184",
+        "204",
+        "4372",
+        "6"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8612",
+      "ground_truth": "1189",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "667",
+        "1244",
+        "1851",
+        "4744",
+        "4523",
+        "4258",
+        "1189"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8809",
+      "ground_truth": "3933",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4072",
+        "4509",
+        "2468",
+        "3933"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8932",
+      "ground_truth": "3301",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3301"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "8933",
+      "ground_truth": "3301",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "2864",
+        "1970",
+        "2079",
+        "1963",
+        "4209",
+        "3301"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9042",
+      "ground_truth": "4689",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1604",
+        "2450",
+        "4306",
+        "4689"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9073",
+      "ground_truth": "3177",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3376",
+        "3177"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9075",
+      "ground_truth": "3220",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4345",
+        "3220"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9077",
+      "ground_truth": "2186",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2186"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9104",
+      "ground_truth": "1913",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "1369",
+        "2864",
+        "1318",
+        "4919",
+        "3814",
+        "1167",
+        "2608",
+        "1913"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9162",
+      "ground_truth": "3949",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3949"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9163",
+      "ground_truth": "3949",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3949"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9166",
+      "ground_truth": "3250",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4770",
+        "3250"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9169",
+      "ground_truth": "3949",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4713",
+        "3949"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9195",
+      "ground_truth": "2953",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2645",
+        "3533",
+        "3039",
+        "2953"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9220",
+      "ground_truth": "870",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "870"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9222",
+      "ground_truth": "3261",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4044",
+        "3243",
+        "3261"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9212",
+      "ground_truth": "3261",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1578",
+        "1822",
+        "3261"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9214",
+      "ground_truth": "3261",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3553",
+        "1799",
+        "3261"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9244",
+      "ground_truth": "404",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "3038",
+        "1240",
+        "1888",
+        "2605",
+        "4307",
+        "3686",
+        "3198",
+        "152",
+        "404"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9245",
+      "ground_truth": "2152",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2152"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9246",
+      "ground_truth": "1463",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "4386",
+        "2702",
+        "2036",
+        "300",
+        "2022",
+        "1463"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9284",
+      "ground_truth": "851",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "851"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9285",
+      "ground_truth": "851",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2043",
+        "851"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9286",
+      "ground_truth": "851",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "321",
+        "520",
+        "851"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9287",
+      "ground_truth": "573",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "573"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9288",
+      "ground_truth": "851",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "851"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9289",
+      "ground_truth": "851",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "49",
+        "4336",
+        "851"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9290",
+      "ground_truth": "573",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "569",
+        "573"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9472",
+      "ground_truth": "1548",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "3313",
+        "2810",
+        "2708",
+        "2832",
+        "4969",
+        "1548"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9474",
+      "ground_truth": "2297",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1971",
+        "2297"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9475",
+      "ground_truth": "1896",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2368",
+        "1896"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9476",
+      "ground_truth": "1896",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2681",
+        "4251",
+        "1896"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9477",
+      "ground_truth": "4171",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2240",
+        "3728",
+        "4171"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9906",
+      "ground_truth": "825",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "825"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9907",
+      "ground_truth": "401",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1870",
+        "401"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9908",
+      "ground_truth": "825",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "847",
+        "657",
+        "3290",
+        "937",
+        "3704",
+        "2948",
+        "825"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9909",
+      "ground_truth": "401",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2649",
+        "244",
+        "401"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "9998",
+      "ground_truth": "3425",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3953",
+        "3310",
+        "1615",
+        "1441",
+        "3425"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10006",
+      "ground_truth": "3866",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4823",
+        "3866"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10009",
+      "ground_truth": "3866",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3865",
+        "3866"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10138",
+      "ground_truth": "4345",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1821",
+        "4811",
+        "4345"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10139",
+      "ground_truth": "3881",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3235",
+        "4960",
+        "2604",
+        "3881"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10141",
+      "ground_truth": "1236",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1236"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10144",
+      "ground_truth": "1236",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1094",
+        "1236"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10168",
+      "ground_truth": "4947",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3240",
+        "4947"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10196",
+      "ground_truth": "2717",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3894",
+        "1710",
+        "2717"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10199",
+      "ground_truth": "2383",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2383"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10203",
+      "ground_truth": "4136",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "418",
+        "4136"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10278",
+      "ground_truth": "3997",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4598",
+        "750",
+        "420",
+        "422",
+        "3997"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10279",
+      "ground_truth": "459",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "2217",
+        "3337",
+        "1852",
+        "702",
+        "4653",
+        "212",
+        "459"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10280",
+      "ground_truth": "4125",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4125"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10281",
+      "ground_truth": "3958",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "202",
+        "787",
+        "858",
+        "3958"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10283",
+      "ground_truth": "3958",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3958"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10285",
+      "ground_truth": "979",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2188",
+        "592",
+        "1591",
+        "979"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10286",
+      "ground_truth": "3959",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4535",
+        "3959"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10287",
+      "ground_truth": "2878",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2208",
+        "2314",
+        "2878"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10329",
+      "ground_truth": "3847",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1566",
+        "3033",
+        "3847"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10330",
+      "ground_truth": "2817",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2817"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10332",
+      "ground_truth": "4254",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "4018",
+        "4470",
+        "917",
+        "953",
+        "2044",
+        "4254"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10334",
+      "ground_truth": "1265",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1192",
+        "1481",
+        "1265"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10362",
+      "ground_truth": "2175",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2175"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10366",
+      "ground_truth": "2975",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2975"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10367",
+      "ground_truth": "1395",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1395"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10368",
+      "ground_truth": "1395",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1395"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10370",
+      "ground_truth": "2975",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1382",
+        "4076",
+        "2975"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10437",
+      "ground_truth": "4581",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4581"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10471",
+      "ground_truth": "3731",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3731"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10476",
+      "ground_truth": "874",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4493",
+        "4755",
+        "4296",
+        "4416",
+        "874"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10511",
+      "ground_truth": "3814",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3510",
+        "4193",
+        "3814"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10517",
+      "ground_truth": "4459",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4459"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10665",
+      "ground_truth": "4946",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "2429",
+        "4534",
+        "1155",
+        "2970",
+        "4946"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10667",
+      "ground_truth": "3090",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1378",
+        "3677",
+        "3090"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "10864",
+      "ground_truth": "4296",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4296"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11029",
+      "ground_truth": "1682",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3615",
+        "1682"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11081",
+      "ground_truth": "38",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "38"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11231",
+      "ground_truth": "4208",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4348",
+        "60",
+        "1752",
+        "4208"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11232",
+      "ground_truth": "4208",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1046",
+        "4208"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11233",
+      "ground_truth": "4208",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3704",
+        "3785",
+        "3145",
+        "4208"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11235",
+      "ground_truth": "2154",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2154"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11565",
+      "ground_truth": "3567",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4371",
+        "42",
+        "3567"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11568",
+      "ground_truth": "1108",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1108"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11643",
+      "ground_truth": "4294",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "95",
+        "4294"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11679",
+      "ground_truth": "2172",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "2477",
+        "65",
+        "4770",
+        "2172"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11681",
+      "ground_truth": "3879",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3020",
+        "1855",
+        "3879"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11700",
+      "ground_truth": "4646",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4646"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11702",
+      "ground_truth": "2171",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2171"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11705",
+      "ground_truth": "4927",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "4087",
+        "1076",
+        "4207",
+        "4596",
+        "3854",
+        "4927"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11800",
+      "ground_truth": "279",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2287",
+        "2947",
+        "279"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11906",
+      "ground_truth": "331",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "331"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "11962",
+      "ground_truth": "1501",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1501"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12002",
+      "ground_truth": "1212",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1212"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12009",
+      "ground_truth": "4900",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "928",
+        "4900"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12103",
+      "ground_truth": "1052",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "197",
+        "1173",
+        "1197",
+        "1817",
+        "794",
+        "1137",
+        "23",
+        "1052"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12104",
+      "ground_truth": "2769",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2769"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12105",
+      "ground_truth": "1626",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "908",
+        "4829",
+        "4810",
+        "2379",
+        "1626"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12106",
+      "ground_truth": "1433",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1433"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12108",
+      "ground_truth": "1803",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1326",
+        "199",
+        "1803"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12109",
+      "ground_truth": "3549",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "4180",
+        "2803",
+        "3880",
+        "3604",
+        "3903",
+        "2760",
+        "3549"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12229",
+      "ground_truth": "90",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "90"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12230",
+      "ground_truth": "3049",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "1828",
+        "193",
+        "4436",
+        "2832",
+        "2824",
+        "3049"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12231",
+      "ground_truth": "3049",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4926",
+        "3049"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12232",
+      "ground_truth": "3049",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "791",
+        "1030",
+        "304",
+        "1039",
+        "3049"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12233",
+      "ground_truth": "2139",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1055",
+        "4608",
+        "4165",
+        "2139"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12234",
+      "ground_truth": "2720",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "3494",
+        "1428",
+        "2896",
+        "2445",
+        "248",
+        "4023",
+        "3673",
+        "2720"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12306",
+      "ground_truth": "4795",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4853",
+        "4795"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12312",
+      "ground_truth": "1814",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1814"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12315",
+      "ground_truth": "2722",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1218",
+        "1306",
+        "2722"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12318",
+      "ground_truth": "1263",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1263"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12319",
+      "ground_truth": "3312",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3312"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12494",
+      "ground_truth": "488",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "488"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12533",
+      "ground_truth": "2771",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2771"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12534",
+      "ground_truth": "356",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3111",
+        "1693",
+        "4513",
+        "2613",
+        "356"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12536",
+      "ground_truth": "1770",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1770"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12539",
+      "ground_truth": "2906",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2906"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12541",
+      "ground_truth": "4817",
+      "valid": true,
+      "rank": 8,
+      "predictions": [
+        "1693",
+        "1461",
+        "1385",
+        "3917",
+        "2622",
+        "3677",
+        "2297",
+        "4817"
+      ],
+      "num_calls": 8,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12600",
+      "ground_truth": "4217",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4217"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12603",
+      "ground_truth": "2629",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "1775",
+        "4729",
+        "2556",
+        "2043",
+        "2629"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12604",
+      "ground_truth": "1926",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2606",
+        "1926"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12605",
+      "ground_truth": "4217",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1097",
+        "4217"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12606",
+      "ground_truth": "2629",
+      "valid": true,
+      "rank": 6,
+      "predictions": [
+        "2329",
+        "200",
+        "1799",
+        "3372",
+        "586",
+        "2629"
+      ],
+      "num_calls": 6,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12608",
+      "ground_truth": "1926",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1926"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12768",
+      "ground_truth": "4937",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3608",
+        "1304",
+        "3796",
+        "4937"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12771",
+      "ground_truth": "4937",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3751",
+        "1959",
+        "511",
+        "4937"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12846",
+      "ground_truth": "3999",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "507",
+        "3999"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12847",
+      "ground_truth": "4933",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4933"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12848",
+      "ground_truth": "4933",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4933"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12849",
+      "ground_truth": "4433",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4433"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12850",
+      "ground_truth": "4933",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4933"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12852",
+      "ground_truth": "4933",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4933"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12928",
+      "ground_truth": "863",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "863"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12994",
+      "ground_truth": "798",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "1243",
+        "1786",
+        "3736",
+        "4415",
+        "2223",
+        "2781",
+        "1378",
+        "3434",
+        "798"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12997",
+      "ground_truth": "4524",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4207",
+        "4524"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "12998",
+      "ground_truth": "4524",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4524"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13000",
+      "ground_truth": "4678",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4792",
+        "4678"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13002",
+      "ground_truth": "1789",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "1696",
+        "3519",
+        "1789"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13069",
+      "ground_truth": "3925",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3925"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13070",
+      "ground_truth": "3925",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3925"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13074",
+      "ground_truth": "3925",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3993",
+        "3327",
+        "3925"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13075",
+      "ground_truth": "1455",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3354",
+        "1455"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13104",
+      "ground_truth": "1285",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1742",
+        "1285"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13105",
+      "ground_truth": "2179",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2392",
+        "2179"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13106",
+      "ground_truth": "4266",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2005",
+        "4266"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13107",
+      "ground_truth": "1253",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3133",
+        "1253"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13108",
+      "ground_truth": "4266",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "157",
+        "4782",
+        "4266"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13109",
+      "ground_truth": "1253",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1253"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13110",
+      "ground_truth": "2069",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "317",
+        "3213",
+        "4170",
+        "2069"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13111",
+      "ground_truth": "3577",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "4623",
+        "4193",
+        "762",
+        "1873",
+        "2534",
+        "3665",
+        "3577"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13158",
+      "ground_truth": "2806",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "211",
+        "2806"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13259",
+      "ground_truth": "2718",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2718"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13261",
+      "ground_truth": "2225",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "4631",
+        "1432",
+        "2225"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13263",
+      "ground_truth": "4849",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "2545",
+        "4584",
+        "4849"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13264",
+      "ground_truth": "3716",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3716"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13265",
+      "ground_truth": "4849",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "4876",
+        "4020",
+        "4402",
+        "3560",
+        "4849"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13266",
+      "ground_truth": "2200",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "3776",
+        "2200"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13292",
+      "ground_truth": "4979",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "1872",
+        "3069",
+        "220",
+        "1752",
+        "2658",
+        "3892",
+        "4968",
+        "2074",
+        "4979"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13432",
+      "ground_truth": "587",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "4160",
+        "4499",
+        "1489",
+        "4077",
+        "4729",
+        "4525",
+        "568",
+        "4108",
+        "587"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13465",
+      "ground_truth": "1220",
+      "valid": true,
+      "rank": 5,
+      "predictions": [
+        "3062",
+        "1992",
+        "1086",
+        "3872",
+        "1220"
+      ],
+      "num_calls": 5,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13733",
+      "ground_truth": "3871",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "2972",
+        "1903",
+        "132",
+        "1416",
+        "4364",
+        "2672",
+        "1731",
+        "4433",
+        "3871"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13737",
+      "ground_truth": "3871",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3871"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13738",
+      "ground_truth": "3871",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "3490",
+        "3231",
+        "1725",
+        "3871"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13739",
+      "ground_truth": "4789",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4789"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13874",
+      "ground_truth": "404",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "577",
+        "1782",
+        "1258",
+        "1832",
+        "2411",
+        "3824",
+        "404"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13888",
+      "ground_truth": "1866",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1866"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13890",
+      "ground_truth": "1751",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "2231",
+        "3057",
+        "2527",
+        "3518",
+        "1330",
+        "2166",
+        "1751"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13892",
+      "ground_truth": "433",
+      "valid": true,
+      "rank": 7,
+      "predictions": [
+        "1721",
+        "4365",
+        "2085",
+        "2420",
+        "1770",
+        "3041",
+        "433"
+      ],
+      "num_calls": 7,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13893",
+      "ground_truth": "410",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "1633",
+        "1124",
+        "3451",
+        "410"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13894",
+      "ground_truth": "1463",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "1138",
+        "1426",
+        "1372",
+        "4557",
+        "3749",
+        "3220",
+        "1671",
+        "3853",
+        "4715",
+        "1463"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "13999",
+      "ground_truth": "1911",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1911"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14000",
+      "ground_truth": "1911",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1911"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14051",
+      "ground_truth": "3160",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "3160"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "14074",
+      "ground_truth": "687",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "687"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "69",
+      "ground_truth": "4681",
+      "valid": true,
+      "rank": 3,
+      "predictions": [
+        "3144",
+        "4293",
+        "4681"
+      ],
+      "num_calls": 3,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "71",
+      "ground_truth": "2786",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "2786"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "312",
+      "ground_truth": "4627",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4627"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "314",
+      "ground_truth": "165",
+      "valid": true,
+      "rank": 9,
+      "predictions": [
+        "12",
+        "2710",
+        "1031",
+        "2058",
+        "1564",
+        "1359",
+        "3741",
+        "271",
+        "165"
+      ],
+      "num_calls": 9,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "379",
+      "ground_truth": "1247",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "126",
+        "1247"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "381",
+      "ground_truth": "1054",
+      "valid": true,
+      "rank": 4,
+      "predictions": [
+        "4080",
+        "4072",
+        "3776",
+        "1054"
+      ],
+      "num_calls": 4,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "536",
+      "ground_truth": "1739",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "1454",
+        "1739"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "537",
+      "ground_truth": "1780",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "1780"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "706",
+      "ground_truth": "3970",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "4927",
+        "3970"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "710",
+      "ground_truth": "4085",
+      "valid": true,
+      "rank": 1,
+      "predictions": [
+        "4085"
+      ],
+      "num_calls": 1,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "845",
+      "ground_truth": "0",
+      "valid": true,
+      "rank": 10,
+      "predictions": [
+        "1361",
+        "1528",
+        "4271",
+        "2696",
+        "3426",
+        "2303",
+        "4361",
+        "726",
+        "1150",
+        "0"
+      ],
+      "num_calls": 10,
+      "early_stop": true,
+      "error": null
+    },
+    {
+      "trajectory_id": "869",
+      "ground_truth": "2835",
+      "valid": true,
+      "rank": 2,
+      "predictions": [
+        "2118",
+        "2835"
+      ],
+      "num_calls": 2,
+      "early_stop": true,
+      "error": null
+    }
+  ]
+}
